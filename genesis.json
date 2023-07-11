@@ -1,0 +1,184 @@
+{
+  "genesis_time": "2022-04-12T17:00:00Z",
+  "chain_id": "minter-mainnet-5",
+  "initial_height": "0",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "10000000",
+      "max_gas": "100000",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "1000",
+      "max_age_duration": "86400000000000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {
+      "app_version": "8"
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "note": "",
+    "validators": [
+      {
+        "total_bip_stake": "10000000000000000000000",
+        "public_key": "Mp4ba150385d01975859d1e38060dc3eb4765dbc83b440c9bf89be70ca68423115",
+        "accum_reward": "1",
+        "absent_times": "________________________"
+      }
+    ],
+    "candidates": [
+	 {
+        "id": "1",
+        "reward_address": "Mx51fa3668c08782565f04fdc1e680a0e6aa065a50",
+        "owner_address": "Mx51fa3668c08782565f04fdc1e680a0e6aa065a50",
+        "control_address": "Mx51fa3668c08782565f04fdc1e680a0e6aa065a50",
+        "total_bip_stake": "10000000000000000000000",
+        "public_key": "Mp4ba150385d01975859d1e38060dc3eb4765dbc83b440c9bf89be70ca68423115",
+        "commission": "10",
+        "stakes": [
+          {
+            "owner": "Mx51fa3668c08782565f04fdc1e680a0e6aa065a50",
+            "coin": "0",
+            "value": "10000000000000000000000",
+            "bip_value": "10000000000000000000000"
+          }
+        ],
+        "status": "2"
+      }
+    ],
+    "pools": [
+      {
+        "coin0": "0",
+        "coin1": "1",
+        "reserve0": "1000",
+        "reserve1": "1000",
+        "id": "1"
+      }
+    ],
+    "next_order_id": "8503",
+    "accounts": [
+      {
+        "address": "Mx51fa3668c08782565f04fdc1e680a0e6aa065a50",
+        "balance": [
+          {
+            "coin": "0",
+            "value": "90000000000000000000000"
+          },
+          {
+            "coin": "1",
+            "value": "1000000000000000000000000"
+          },
+          {
+            "coin": "2",
+            "value": "1000000000000000000000000"
+          }
+        ],
+        "nonce": "0",
+        "lock_stake_until_block": "0"
+      }
+    ],
+    "coins": [
+      {
+        "id": "1",
+        "name": "MNST",
+        "symbol": "MNST",
+        "volume": "1000000000000000000001000",
+        "reserve": "0",
+        "max_supply": "1000000000000000000000000000000000",
+        "mintable": true,
+        "burnable": true
+      },
+      {
+        "id": "2",
+        "name": "USDTE",
+        "symbol": "USDTE",
+        "volume": "1000000000000000000000000",
+        "reserve": "0",
+        "max_supply": "1000000000000000000000000000000000",
+        "mintable": true,
+        "burnable": true
+      }
+    ],
+    "frozen_funds": [
+      {
+        "height": "100",
+        "address": "Mx51fa3668c08782565f04fdc1e680a0e6aa065a50",
+        "candidate_key": "Mp4ba150385d01975859d1e38060dc3eb4765dbc83b440c9bf89be70ca68423115",
+        "candidate_id": "1",
+        "coin": "0",
+        "value": "1"
+      }
+    ],
+    "commission": {
+      "coin": "0",
+      "payload_byte": "200000000000000",
+      "send": "10000000000000000",
+      "buy_bancor": "30000000000000000",
+      "sell_bancor": "30000000000000000",
+      "sell_all_bancor": "30000000000000000",
+      "buy_pool_base": "30000000000000000",
+      "buy_pool_delta": "5000000000000000",
+      "sell_pool_base": "30000000000000000",
+      "sell_pool_delta": "5000000000000000",
+      "sell_all_pool_base": "30000000000000000",
+      "sell_all_pool_delta": "5000000000000000",
+      "create_ticker3": "50000000000000000000000",
+      "create_ticker4": "10000000000000000000000",
+      "create_ticker5": "2000000000000000000000",
+      "create_ticker6": "400000000000000000000",
+      "create_ticker7_10": "100000000000000000000",
+      "create_coin": "0",
+      "create_token": "0",
+      "recreate_coin": "100000000000000000000",
+      "recreate_token": "100000000000000000000",
+      "declare_candidacy": "10000000000000000000",
+      "delegate": "100000000000000000",
+      "unbond": "100000000000000000",
+      "redeem_check": "30000000000000000",
+      "set_candidate_on": "100000000000000000",
+      "set_candidate_off": "100000000000000000",
+      "create_multisig": "100000000000000000",
+      "multisend_base": "10000000000000000",
+      "multisend_delta": "5000000000000000",
+      "edit_candidate": "100000000000000000",
+      "set_halt_block": "100000000000000000",
+      "edit_ticker_owner": "100000000000000000000",
+      "edit_multisig": "100000000000000000",
+      "edit_candidate_public_key": "1000000000000000000000",
+      "create_swap_pool": "10000000000000000000",
+      "add_liquidity": "100000000000000000",
+      "remove_liquidity": "100000000000000000",
+      "edit_candidate_commission": "10000000000000000000",
+      "mint_token": "100000000000000000",
+      "burn_token": "100000000000000000",
+      "vote_commission": "100000000000000000",
+      "vote_update": "100000000000000000",
+      "failed_tx": "10000000000000000",
+      "add_limit_order": "100000000000000000",
+      "remove_limit_order": "10000000000000000",
+      "move_stake": "100000000000000000",
+      "lock_stake": "100000000000000000",
+      "lock": "10000000000000000"
+    },
+    "used_checks": [
+      "00004601d10c33eda76bb16a54a0d8882a57ec34e964aa23e2b5d9aa10957fee"
+    ],
+    "max_gas": "100000",
+    "total_slashed": "0",
+    "emission": "100000",
+    "prev_reward": {
+      "time": "1649782800000000000",
+      "amount_bip": "23758331635604067122345484",
+      "amount_usdt": "49346484891655118548267",
+      "off": false,
+      "reward": "74718494851875028985"
+    },
+    "version": "v300"
+  }
+}
